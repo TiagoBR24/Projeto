@@ -6,7 +6,7 @@
     --branco: #000000;
     --botao-ativo: #2bff00;
     --botao-inativo: rgb(5, 146, 0);
-    --texto-fundo: rgb(94, 255, 115).3);
+    --texto-fundo: rgb(94, 255, 115, 0.3);
 }
 
 body {
@@ -16,22 +16,22 @@ body {
 }
 
 .conteudo-principal{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        max-width: 1200px;
-        width: 100%;
-        margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
 }
-        .titulo-principal{
-        text-align: left;
-        width: 100%;
-        font-size:32px;
+.titulo-principal{
+    text-align: left;
+    width: 100%;
+    font-size:32px;
 }
 
-         .titulo-principal span{
-         color: var(--verde);
+.titulo-principal span{
+    color: var(--verde);
 
 }
 .botao{
